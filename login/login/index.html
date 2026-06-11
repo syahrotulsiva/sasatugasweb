@@ -37,9 +37,20 @@
         </from>
         
         <!-- Register link -->
-        <p id="message"></p>
-        <a href="#" class="register-link">Not Registered? Create Account</a>
-    </div>
+        <div class="register-form" style="display:none;">
+            <h2>Create Account</h2>
+            <form action="#" id="registerForm">
+                <input type="text" id="regUsername" placeholder="Username" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="regPassword" placeholder="Password" required>
+              
+                <button type="submit">Register</button>
+            </form>
+            
+            <p id="message"></p>
+            <a href="#" class="register-link">Not Registered? Create Account</a>
+        </div>
+        
     <script src="js/login.js" defer></script>
     <script src="js/register.js" defer></script>
 </body>
