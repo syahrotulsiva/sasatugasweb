@@ -27,14 +27,20 @@
         </div>
         
         <!-- Username and Password fields -->
-        <input type="text" placeholder="Username">
-        <input type="password" placeholder="Password">
+        <from action="#" id="loginForm">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
         
         <!-- Login button -->
-        <button>Login</button>
+            <button>Login</button>
+            <div id="alertBox" class="alert" style="display:none;"></div>
+        </from>
         
         <!-- Register link -->
+        <p id="message"></p>
         <a href="#" class="register-link">Not Registered? Create Account</a>
     </div>
+    <script src="js/login.js" defer></script>
+    <script src="js/register.js" defer></script>
 </body>
 </html>
